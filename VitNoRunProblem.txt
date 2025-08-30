@@ -1,0 +1,7 @@
+if vit no run and show node version problem like following
+You are using Node.js 21.1.0. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.
+ 
+
+ solution:
+ update vit to latest and plugens
+ npm install vite@4.5.9 @vitejs/plugin-react@3.1.0 --save-dev

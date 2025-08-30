@@ -1,0 +1,21 @@
+/* Tilt effect on skill category cards */
+.skill-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+
+.skill-card:hover {
+  transform: perspective(1000px) rotateX(8deg) rotateY(8deg) scale(1.03);
+  box-shadow: 0 20px 40px rgba(130, 69, 236, 0.4);
+}
+
+/* Slight pop on each skill item */
+.skill-item {
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+  border-color: #8245ec;
+  box-shadow: 10 10 12px rgba(130, 69, 236, 0.6);
+}

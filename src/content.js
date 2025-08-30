@@ -99,14 +99,8 @@ import pos12 from './assets/work_logo/pos12.jpeg';
 
 
 
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
-
 // Education Section Logo's
 import glaLogo from './assets/education_logo/unilogo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
 
 
 const Navlinks = [

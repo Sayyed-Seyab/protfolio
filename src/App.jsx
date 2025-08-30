@@ -10,7 +10,7 @@ import Reveal from './components/Reveal/Reveal';
 function App() {
   return (
     <>
-   {/* main page of the app */}
+  
       <Navbar />
       <div className='max-w-6xl mx-auto'>
         <Reveal direction="up"><About /></Reveal>

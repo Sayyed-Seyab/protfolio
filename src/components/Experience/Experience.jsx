@@ -10,7 +10,7 @@ const Experience = () => {
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
-        <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
+        <div className="w-32 h-1 bg-gradient-to-r from-gray-400 to-green-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           A collection of my work experience and the roles I have taken in
           various organizations
@@ -78,7 +78,7 @@ const Experience = () => {
                   {experience.skills.map((skill, index) => (
                     <li
                       key={index}
-                      className="bg-[#8245ec] text-gray-300 px-4 py-1 text-xs sm:text-sm rounded-lg mr-2 mb-2 border border-gray-400"
+                      className="bg-transparent-to-r hover:bg-gradient-to-r from-gray-800 to-blue-400 text-gray-300 px-4 py-1 text-xs sm:text-sm rounded-lg mr-2 mb-2 border border-gray-400"
                     >
                       {skill}
                     </li>

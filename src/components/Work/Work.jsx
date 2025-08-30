@@ -22,7 +22,7 @@ const Work = () => {
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
-        <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
+        <div className="w-32 h-1 bg-gradient-to-r from-gray-400 to-green-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           A showcase of the projects I have worked on, highlighting my skills
           and experience in various technologies
@@ -69,7 +69,7 @@ const Work = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-1 lg:py-2 px-2  rounded-xl lg:text-1xl text-sm font-semibold text-center"
+                    className="w-1/2 bg-gray-800 hover:bg-gradient-to-r from-green-400 to-gray-500 text-gray-100 lg:px-1 lg:py-2 px-2  rounded-xl lg:text-1xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
@@ -77,7 +77,7 @@ const Work = () => {
                     href={project.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-1xl text-sm font-semibold text-center"
+                    className="w-1/2  bg-gradient-to-r from-gray-700 to-green-500 hover:bg-green-500 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-1xl text-sm font-semibold text-center"
                   >
                     View Live
                   </a>

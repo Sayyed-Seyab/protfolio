@@ -60,7 +60,7 @@ export default function Navbar() {
     href="https://www.linkedin.com/in/sayed-seyab/"
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center space-x-1 hover:text-purple-500 transition"
+    className="flex items-center space-x-1 hover:text-green-500 transition"
   >
     <FaLinkedin className="text-xl" />
     <span>Linkedin</span>
@@ -70,7 +70,7 @@ export default function Navbar() {
     href="https://github.com/Sayyed-Seyab/"
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center space-x-1 hover:text-purple-500 transition"
+    className="flex items-center space-x-1 hover:text-green-500 transition"
   >
     <FaGithub className="text-xl" />
     <span>Github</span>

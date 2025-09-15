@@ -59,7 +59,7 @@ export default function About() {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/17EzwvANu-ZtPGOus18Mwebmt0ocRHcPm/view?usp=sharing"
+            href="https://drive.google.com/file/d/16EMj6vJKzTvjNxCzA3IwHnIuDcsUQSVb/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-10 lg:text-sm lg:px-5 rounded-full text-lg font-semibold shadow-lg transition duration-300 transform hover:scale-110 hover:shadow-purple-500/50"
